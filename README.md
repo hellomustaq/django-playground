@@ -17,6 +17,4 @@ The tensorflow and keras versions need to be exactly as listed above.
 
 To run this program, the 'intents.json' file and an empty 'intentsPreviousCopy.json' file need to be inside the appropriate directory (this root directory along with 'manage.py' file).   
 Then running the command 'python manage.py runserver' will start the program.   
-It was tested on Postman by going to the url: 'http://127.0.0.1:8000/chatbotV4/'.  
-Inisde Postman body, the query strings need to be enclosed withing double quotes like "What is your name?"
-
+It was tested on Postman by going to the url: 'http://127.0.0.1:8000/taleantbot/' for taleant chatbot api, and 'http://127.0.0.1:8000/teleausbot/' for teleaus chatbot api. 
